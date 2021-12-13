@@ -1,0 +1,21 @@
+(gdb) gcc p5original.c
+Undefined command: "gcc".  Try "help".
+(gdb) b main
+Note: breakpoint 1 also set at pc 0x55d004c00722.
+Breakpoint 2 at 0x55d004c00722: file p5original.c, line 4.
+(gdb) r
+`/home/runner/test-1-RathodShridhar-1/a.out' has changed; re-reading symbols.
+Starting program: /home/runner/test-1-RathodShridhar-1/a.out 
+warning: Error disabling address space randomization: Operation not permitted
+
+Breakpoint 1, main () at p5original.c:4
+4   { int a,b,c,large;
+(gdb) 1
+Undefined command: "1".  Try "help".
+(gdb) c
+Continuing.
+enter hte values for a , b, c1
+2
+1
+the largest no is 2[Inferior 1 (process 269) exited normally]
+(gdb) 
